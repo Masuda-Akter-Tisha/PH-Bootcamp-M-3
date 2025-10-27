@@ -17,6 +17,29 @@
             border-radius: 10px;
             border:2px solid olive;
         }
+        #special{
+            font-size: 40px;
+        }
+        
+        .list{
+            font-size: 30px;
+            color:rgb(79, 4, 4);
+        }
+         .list1{
+            color: rgb(10, 79, 56);
+         }
+         .list1,.list2{
+            text-decoration: underline;
+         }
+         #paragraph,#special,.list{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+         #paragraph span{
+            color: brown;
+         }
+         .list span{
+            color: olive;
+         }
     </style>
 </head>
 <body>
@@ -24,16 +47,16 @@
     <h2 style="color: cornflowerblue; background-color: lightblue; font-size: 50px; border-radius:10px; border:2px solid rgb(51, 125, 162); text-align: center; padding:10px;">We will learn css today</h2> 
 
     <p>CSS stands for Cascading Style Sheets.</p>
-    <p>CSS is Fun</p>
+    <p id="paragraph">CSS is <span>Fun</span></p>
     <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
     <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once.External stylesheets are stored in CSS files</p>
 
     <h2>What we will learn today</h2>
     <ul>
-        <li>CSS</li>
-        <li>Styling</li>
-        <li>Box model</li>
-        <li>Hover,tover</li>
+        <li id="special">CSS</li>
+        <li class="list list2">Styling</li>
+        <li class="list list1">Box model</li>
+        <li class="list">Hover,<span>tover</span></li>
     </ul>
 </body>
 </html>
