@@ -26,7 +26,7 @@
             color:rgb(79, 4, 4);
         }
          .list1{
-            color: rgb(10, 79, 56);
+            color: rgba(10, 79, 56, 0.371);
          }
          .list1,.list2{
             text-decoration: underline;
@@ -34,11 +34,14 @@
          #paragraph,#special,.list{
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
          }
-         #paragraph span{
+         #paragraph .red{
             color: brown;
          }
          .list span{
             color: olive;
+         }
+         h1,#special{
+            color: rgb(103, 127, 119);
          }
     </style>
 </head>
@@ -47,11 +50,11 @@
     <h2 style="color: cornflowerblue; background-color: lightblue; font-size: 50px; border-radius:10px; border:2px solid rgb(51, 125, 162); text-align: center; padding:10px;">We will learn css today</h2> 
 
     <p>CSS stands for Cascading Style Sheets.</p>
-    <p id="paragraph">CSS is <span>Fun</span></p>
+    <p id="paragraph">CSS is <span class="red">Fun</span></p>
     <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
     <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once.External stylesheets are stored in CSS files</p>
 
-    <h2>What we will learn today</h2>
+    <h1>What we will learn today</h1>
     <ul>
         <li id="special">CSS</li>
         <li class="list list2">Styling</li>
